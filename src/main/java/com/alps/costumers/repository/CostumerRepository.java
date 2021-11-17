@@ -1,9 +1,9 @@
-package com.alps.consumers.repository;
+package com.alps.costumers.repository;
 
 import java.util.List;
 import java.util.Optional;
 
-import com.alps.consumers.document.Costumer;
+import com.alps.costumers.document.Costumer;
 
 import org.socialsignin.spring.data.dynamodb.repository.EnableScan;
 import org.springframework.data.repository.CrudRepository;

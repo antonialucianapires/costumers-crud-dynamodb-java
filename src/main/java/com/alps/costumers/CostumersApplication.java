@@ -1,4 +1,4 @@
-package com.alps.consumers;
+package com.alps.costumers;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

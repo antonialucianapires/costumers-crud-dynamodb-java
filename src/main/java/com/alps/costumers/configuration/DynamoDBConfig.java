@@ -1,4 +1,4 @@
-package com.alps.consumers.configuration;
+package com.alps.costumers.configuration;
 
 import com.amazonaws.auth.AWSStaticCredentialsProvider;
 import com.amazonaws.auth.BasicAWSCredentials;
@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@EnableDynamoDBRepositories(basePackages = "com.kaikeventura.dynamodb.repository")
+@EnableDynamoDBRepositories(basePackages = "com.alps.costumers.repository")
 public class DynamoDBConfig {
 
     @Value("${aws.dynamodb.endpoint}")

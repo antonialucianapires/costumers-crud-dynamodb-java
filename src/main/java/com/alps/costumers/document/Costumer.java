@@ -1,4 +1,4 @@
-package com.alps.consumers.document;
+package com.alps.costumers.document;
 
 import java.io.Serializable;
 
